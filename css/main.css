@@ -112,7 +112,11 @@ textarea {
 #fullpage > .section:nth-child(4) { background-color: #45B29D; }
 #fullpage > .section:nth-child(5) { background-color: #334D5C; }
 
-
+@media(max-width: 992px) {
+    #fullpage > .section {
+        font-size: 20px;
+    }
+}
 
 
 
